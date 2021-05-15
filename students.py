@@ -1,5 +1,5 @@
 student_one = {
-    "student_name": "Rohit Meheta",
+    "student_name": "rohit meheta",
     "student_age": 19,
     "student_subject_marks" :{
         "Maths" : 89,
@@ -11,7 +11,7 @@ student_one = {
 }
 
 student_two = {
-    "student_name": "Sanjog Bahara",
+    "student_name": "sanjog bahara",
     "student_age": 20,
     "student_subject_marks" :{
         "Biology" : 70,
@@ -23,7 +23,7 @@ student_two = {
 }
 
 student_three = {
-    "student_name": "Antoneo Zenefer",
+    "student_name": "antoneo zenefer",
     "student_age": 19,
     "student_subject_marks" :{
         "Maths" : 93,
@@ -35,7 +35,7 @@ student_three = {
 }
 
 student_four = {
-    "student_name": "Natasha Romonoff",
+    "student_name": "natasha romonoff",
     "student_age": 21,
     "student_subject_marks" :{
         "Biology" : 94,
@@ -47,7 +47,7 @@ student_four = {
 }
 
 student_five = {
-    "student_name": "Devis Jarvis",
+    "student_name": "devis jarvis",
     "student_age": 19,
     "student_subject_marks" :{
         "Maths" : 99,
@@ -59,7 +59,7 @@ student_five = {
 }
 
 student_six = {
-"student_name": "Mark Portfollio",
+"student_name": "mark portfollio",
     "student_age": 21,
     "student_subject_marks" :{
         "Political Science" : 64,
@@ -71,7 +71,7 @@ student_six = {
 }
 
 student_seven = {
-    "student_name": "Tony Stark",
+    "student_name": "tony stark",
     "student_age": 18,
     "student_subject_marks" :{
         "Maths" : 100,
@@ -83,7 +83,7 @@ student_seven = {
 }
 
 student_eight = {
-    "student_name": "Donald Michelle",
+    "student_name": "donald michelle",
     "student_age": 20,
     "student_subject_marks" :{
         "Biology" : 98,
@@ -95,7 +95,7 @@ student_eight = {
 }
 
 student_nine = {
-    "student_name": "Shreya Aggarwal",
+    "student_name": "shreya aggarwal",
     "student_age": 20,
     "student_subject_marks" :{
         "Biology" : 91,
@@ -107,7 +107,7 @@ student_nine = {
 }
 
 student_ten = {
-    "student_name": "Lamina Heignsberg",
+    "student_name": "lamina heignsberg",
     "student_age": 19,
     "student_subject_marks" :{
         "Maths" : 75,
@@ -119,7 +119,7 @@ student_ten = {
 }
 
 student_eleven = {
-    "student_name": "Oman Petersberg",
+    "student_name": "oman petersberg",
     "student_age": 21,
     "student_subject_marks" :{
         "Maths" : 99,
@@ -131,7 +131,7 @@ student_eleven = {
 }
 
 student_twelve = {
-    "student_name": "Daniel Clifcurt",
+    "student_name": "daniel clifcurt",
     "student_age": 19,
     "student_subject_marks" :{
         "Maths" : 89,
