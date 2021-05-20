@@ -3,7 +3,7 @@ from students import *
 from max_marks_subjects import *
 from student_first_last_name import *
 
-print('Type start to start the programme')
+print('Type start to start the programme and stop to end the programme')
 start = input().lower()
 if start =='start':
     i = 1
@@ -12,6 +12,7 @@ if start =='start':
 [2]. If you want to know minimum age to give exam press "a"
 [3]. If you want to know the subjects press "s"
 [4]. If you want to know highest marks in each subject press "e"
+[5]. To exit type "stop"
     ''')
     while i<2:
         help = input('Choose anyone from PART 1 :').lower()
@@ -20,7 +21,7 @@ if start =='start':
     [1]. Enter your name to know your marks
     [2]. To know the person got the highest marks press "t"
     [3]. To know the person got the lowest marks press "l"
-    To quit write "stop" 
+    [4]. To quit write "stop" 
             ''')
             while i < 2:
                 help_loop = input('Choose anyone from PART 2 :').lower()
@@ -33,148 +34,196 @@ if start =='start':
                     print(min(total_one,total_two,total_three,total_four,total_five,total_six,total_seven,total_eight,total_nine,total_ten,total_eleven,total_twelve))
 
                 elif help_loop==student1_first or help_loop==student1:
-                    if student_one['student_age'] >= 20:
-                        print(student_one['student_subject_marks'])
-                        print("Total marks :",total_one)
-                        print("Pass at 450")
-                        if total_one>450:
-                            print("Status : Pass")
+                    password_one = input("Enter your password :")
+                    if password_one == student_one["student_password"]:
+                        if student_one['student_age'] >= 20:
+                            print(student_one['student_subject_marks'])
+                            print("Total marks :",total_one)
+                            print("Pass at 450")
+                            if total_one>450:
+                                print("Status : Pass")
+                            else:
+                                print("Status : Fail")
                         else:
-                            print("Status : Fail")
+                            print('Under age 20years are not eligible')
                     else:
-                        print('Under age 20years are not eligible')
+                        print("wrong password !!!")
 
                 elif help_loop==student2 or help_loop==student2_first:
-                    if student_two['student_age'] >= 20:
-                        print(student_two['student_subject_marks'])
-                        print("Total marks :", total_two)
-                        print("Pass at 450")
-                        if total_two>450:
-                            print("Status : Pass")
-                        else:
-                            print("Status : Fail")
+                    password_two = input("Enter your password :")
+                    if password_two == student_two["student_password"]:
+                            if student_two['student_age'] >= 20:
+                                print(student_two['student_subject_marks'])
+                                print("Total marks :", total_two)
+                                print("Pass at 450")
+                                if total_two>450:
+                                    print("Status : Pass")
+                                else:
+                                    print("Status : Fail")
+                            else:
+                                print('Under age 20years are not eligible')
                     else:
-                        print('Under age 20years are not eligible')
+                        print("wrong password !!!")
 
                 elif help_loop==student3 or help_loop==student3_first:
-                    if student_three['student_age'] >= 20:
-                        print(student_three['student_subject_marks'])
-                        print("Total marks :", total_three)
-                        print("Pass at 450")
-                        if total_three>450:
-                            print("Status : Pass")
+                    password_three = input("Enter your password :")
+                    if password_three == student_three["student_password"]:
+                        if student_three['student_age'] >= 20:
+                            print(student_three['student_subject_marks'])
+                            print("Total marks :", total_three)
+                            print("Pass at 450")
+                            if total_three>450:
+                                print("Status : Pass")
+                            else:
+                                print("Status : Fail")
                         else:
-                            print("Status : Fail")
+                            print('Under age 20years are not eligible')
                     else:
-                        print('Under age 20years are not eligible')
+                        print("wrong password !!!")
 
                 elif help_loop==student4 or help_loop==student4_first:
-                    if student_four['student_age'] >= 20:
-                        print(student_four['student_subject_marks'])
-                        print("Total marks :", total_four)
-                        print("Pass at 450")
-                        if total_four>450:
-                            print("Status : Pass")
+                    password_four = input("Enter your password :")
+                    if password_four == student_four["student_password"]:
+                        if student_four['student_age'] >= 20:
+                            print(student_four['student_subject_marks'])
+                            print("Total marks :", total_four)
+                            print("Pass at 450")
+                            if total_four>450:
+                                print("Status : Pass")
+                            else:
+                                print("Status : Fail")
                         else:
-                            print("Status : Fail")
+                            print('Under age 20years are not eligible')
                     else:
-                        print('Under age 20years are not eligible')
+                        print("wrong password !!!")
 
                 elif help_loop==student5 or help_loop==student5_first:
-                    if student_five['student_age'] >= 20:
-                        print(student_five['student_subject_marks'])
-                        print("Total marks :", total_five)
-                        print("Pass at 450")
-                        if total_five>450:
-                            print("Status : Pass")
+                    password_five = input("Enter your password :")
+                    if password_five == student_five["student_password"]:
+                        if student_five['student_age'] >= 20:
+                            print(student_five['student_subject_marks'])
+                            print("Total marks :", total_five)
+                            print("Pass at 450")
+                            if total_five>450:
+                                print("Status : Pass")
+                            else:
+                                print("Status : Fail")
                         else:
-                            print("Status : Fail")
+                            print('Under age 20years are not eligible')
                     else:
-                        print('Under age 20years are not eligible')
+                        print("wrong password !!!")
 
                 elif help_loop==student6 or help_loop==student6_first:
-                    if student_six['student_age'] >= 20:
-                        print(student_six['student_subject_marks'])
-                        print("Total marks :", total_six)
-                        print("Pass at 450")
-                        if total_six>450:
-                            print("Status : Pass")
+                    password_six = input("Enter your password :")
+                    if password_six == student_six["student_password"]:
+                        if student_six['student_age'] >= 20:
+                            print(student_six['student_subject_marks'])
+                            print("Total marks :", total_six)
+                            print("Pass at 450")
+                            if total_six>450:
+                                print("Status : Pass")
+                            else:
+                                print("Status : Fail")
                         else:
-                            print("Status : Fail")
+                            print('Under age 20years are not eligible')
                     else:
-                        print('Under age 20years are not eligible')
+                        print("wrong password !!!")
 
                 elif help_loop==student7 or help_loop==student7_first:
-                    if student_seven['student_age'] >= 20:
-                        print(student_seven['student_subject_marks'])
-                        print("Total marks :", total_seven)
-                        print("Pass at 450")
-                        if total_seven>450:
-                            print("Status : Pass")
+                    password_seven = input("Enter your password :")
+                    if password_seven == student_seven["student_password"]:
+                        if student_seven['student_age'] >= 20:
+                            print(student_seven['student_subject_marks'])
+                            print("Total marks :", total_seven)
+                            print("Pass at 450")
+                            if total_seven>450:
+                                print("Status : Pass")
+                            else:
+                                print("Status : Fail")
                         else:
-                            print("Status : Fail")
+                            print('Under age 20years are not eligible')
                     else:
-                        print('Under age 20years are not eligible')
+                        print("wrong password !!!")
 
                 elif help_loop==student8 or help_loop==student8_first:
-                    if student_eight['student_age'] >= 20:
-                        print(student_eight['student_subject_marks'])
-                        print("Total marks :", total_eight)
-                        print("Pass at 450")
-                        if total_eight>450:
-                            print("Status : Pass")
+                    password_eight = input("Enter your password :")
+                    if password_eight == student_eight["student_password"]:
+                        if student_eight['student_age'] >= 20:
+                            print(student_eight['student_subject_marks'])
+                            print("Total marks :", total_eight)
+                            print("Pass at 450")
+                            if total_eight>450:
+                                print("Status : Pass")
+                            else:
+                                print("Status : Fail")
                         else:
-                            print("Status : Fail")
+                            print('Under age 20years are not eligible')
                     else:
-                        print('Under age 20years are not eligible')
+                        print("wrong password !!!")
 
                 elif help_loop==student9 or help_loop==student9_first:
-                    if student_nine['student_age'] >= 20:
-                        print(student_nine['student_subject_marks'])
-                        print("Total marks :", total_nine)
-                        print("Pass at 450")
-                        if total_nine>450:
-                            print("Status : Pass")
+                    password_nine = input("Enter your password :")
+                    if password_nine == student_nine["student_password"]:
+                        if student_nine['student_age'] >= 20:
+                            print(student_nine['student_subject_marks'])
+                            print("Total marks :", total_nine)
+                            print("Pass at 450")
+                            if total_nine>450:
+                                print("Status : Pass")
+                            else:
+                                print("Status : Fail")
                         else:
-                            print("Status : Fail")
+                            print('Under age 20years are not eligible')
                     else:
-                        print('Under age 20years are not eligible')
+                        print("wrong password !!!")
 
                 elif help_loop==student10 or help_loop==student10_first:
-                    if student_ten['student_age'] >= 20:
-                        print(student_ten['student_subject_marks'])
-                        print("Total marks :", total_ten)
-                        print("Pass at 450")
-                        if total_ten>450:
-                            print("Status : Pass")
+                    password_ten = input("Enter your password :")
+                    if password_ten == student_ten["student_password"]:
+                        if student_ten['student_age'] >= 20:
+                            print(student_ten['student_subject_marks'])
+                            print("Total marks :", total_ten)
+                            print("Pass at 450")
+                            if total_ten>450:
+                                print("Status : Pass")
+                            else:
+                                print("Status : Fail")
                         else:
-                            print("Status : Fail")
+                            print('Under age 20years are not eligible')
                     else:
-                        print('Under age 20years are not eligible')
+                        print("erong password !!!")
 
                 elif help_loop==student11 or help_loop==student11_first:
-                    if student_eleven['student_age'] >= 20:
-                        print(student_eleven['student_subject_marks'])
-                        print("Total marks :", total_eleven)
-                        print("Pass at 450")
-                        if total_eleven>450:
-                            print("Status : Pass")
+                    password_eleven = input("Enter your password :")
+                    if password_eleven == student_eleven["student_password"]:
+                        if student_eleven['student_age'] >= 20:
+                            print(student_eleven['student_subject_marks'])
+                            print("Total marks :", total_eleven)
+                            print("Pass at 450")
+                            if total_eleven>450:
+                                print("Status : Pass")
+                            else:
+                                print("Status : Fail")
                         else:
-                            print("Status : Fail")
+                            print('Under age 20years are not eligible')
                     else:
-                        print('Under age 20years are not eligible')
+                        print("wrong password !!!")
 
                 elif help_loop==student12 or help_loop==student12_first:
-                    if student_twelve['student_age'] >= 20:
-                        print(student_twelve['student_subject_marks'])
-                        print("Total marks :", total_twelve)
-                        print("Pass at 450")
-                        if total_twelve>450:
-                            print("Status : Pass")
+                    password_twelve = input("Enter your password :")
+                    if password_twelve == student_twelve["student_password"]:
+                        if student_twelve['student_age'] >= 20:
+                            print(student_twelve['student_subject_marks'])
+                            print("Total marks :", total_twelve)
+                            print("Pass at 450")
+                            if total_twelve>450:
+                                print("Status : Pass")
+                            else:
+                                print("Status : Fail")
                         else:
-                            print("Status : Fail")
+                            print('Under age 20years are not eligible')
                     else:
-                        print('Under age 20years are not eligible')
+                        print("wrong password !!!")
 
                 elif help_loop=='stop':
                     print('back to part 1')
