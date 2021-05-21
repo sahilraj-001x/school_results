@@ -33,6 +33,8 @@ if start =='start':
                     print(student_six['student_name'])
                     print(min(total_one,total_two,total_three,total_four,total_five,total_six,total_seven,total_eight,total_nine,total_ten,total_eleven,total_twelve))
 
+# DETAILS OF STUDENT ONE
+
                 elif help_loop==student1_first or help_loop==student1:
                     password_one = input("Enter your password :")
                     if password_one == student_one["student_password"]:
@@ -46,8 +48,29 @@ if start =='start':
                                 print("Status : Fail")
                         else:
                             print('Under age 20years are not eligible')
+                    elif password_one!=student_one["student_password"]:
+                        print("wrong password !!!")
+                        password_one_loop = input("Enter new password :")
+                        student_one["student_password"] = password_one_loop
+                        print("Your new password is :",password_one_loop)
+                        password_one_new = input("Enter password :")
+                        if password_one_new==student_one["student_password"]:
+                            if student_one['student_age'] >= 20:
+                                print(student_one['student_subject_marks'])
+                                print("Total marks :", total_one)
+                                print("Pass at 450")
+                                if total_one > 450:
+                                    print("Status : Pass")
+                                else:
+                                    print("Status : Fail")
+                            else:
+                                print('Under age 20years are not eligible')
+                        else:
+                            print("wrong password !!!")
                     else:
                         print("wrong password !!!")
+
+# DETAILS OF STUDENT TWO
 
                 elif help_loop==student2 or help_loop==student2_first:
                     password_two = input("Enter your password :")
@@ -62,8 +85,29 @@ if start =='start':
                                     print("Status : Fail")
                             else:
                                 print('Under age 20years are not eligible')
+                    elif password_two!=student_two["student_password"]:
+                        print("wrong password !!!")
+                        password_two_loop = input("Enter new password :")
+                        student_two["student_password"] = password_two_loop
+                        print("Your new password is :", password_two_loop)
+                        password_two_new = input("Enter password :")
+                        if password_two_new == student_one["student_password"]:
+                            if student_two['student_age'] >= 20:
+                                print(student_two['student_subject_marks'])
+                                print("Total marks :", total_two)
+                                print("Pass at 450")
+                                if total_two>450:
+                                    print("Status : Pass")
+                                else:
+                                    print("Status : Fail")
+                            else:
+                                print('Under age 20years are not eligible')
+                        else:
+                            print("wrong password !!!")
                     else:
                         print("wrong password !!!")
+
+# DETAILS OF STUDENT THREE
 
                 elif help_loop==student3 or help_loop==student3_first:
                     password_three = input("Enter your password :")
@@ -78,8 +122,29 @@ if start =='start':
                                 print("Status : Fail")
                         else:
                             print('Under age 20years are not eligible')
+                    elif password_three!=student_three["student_password"]:
+                        print("wrong password !!!")
+                        password_three_loop = input("Enter new password :")
+                        student_three["student_password"] = password_three_loop
+                        print("Your new password is :", password_three_loop)
+                        password_three_new = input("Enter password :")
+                        if password_three_new == student_three["student_password"]:
+                            if student_three['student_age'] >= 20:
+                                print(student_three['student_subject_marks'])
+                                print("Total marks :", total_three)
+                                print("Pass at 450")
+                                if total_three > 450:
+                                    print("Status : Pass")
+                                else:
+                                    print("Status : Fail")
+                            else:
+                                print('Under age 20years are not eligible')
+                        else:
+                            print("wrong password !!!")
                     else:
                         print("wrong password !!!")
+
+# DETAILS OF STUDENT FOUR
 
                 elif help_loop==student4 or help_loop==student4_first:
                     password_four = input("Enter your password :")
@@ -94,8 +159,29 @@ if start =='start':
                                 print("Status : Fail")
                         else:
                             print('Under age 20years are not eligible')
+                    elif password_four != student_four["student_password"]:
+                        print("wrong password !!!")
+                        password_four_loop = input("Enter new password :")
+                        student_four["student_password"] = password_four_loop
+                        print("Your new password is :", password_four_loop)
+                        password_four_new = input("Enter password :")
+                        if password_four_new == student_four["student_password"]:
+                            if student_four['student_age'] >= 20:
+                                print(student_four['student_subject_marks'])
+                                print("Total marks :", total_four)
+                                print("Pass at 450")
+                                if total_four > 450:
+                                    print("Status : Pass")
+                                else:
+                                    print("Status : Fail")
+                            else:
+                                print('Under age 20years are not eligible')
+                        else:
+                            print("wrong password !!!")
                     else:
                         print("wrong password !!!")
+
+# DETAILS OF STUDENT FIVE
 
                 elif help_loop==student5 or help_loop==student5_first:
                     password_five = input("Enter your password :")
@@ -110,8 +196,29 @@ if start =='start':
                                 print("Status : Fail")
                         else:
                             print('Under age 20years are not eligible')
+                    elif password_five != student_five["student_password"]:
+                        print("wrong password !!!")
+                        password_five_loop = input("Enter new password :")
+                        student_five["student_password"] = password_five_loop
+                        print("Your new password is :", password_five_loop)
+                        password_five_new = input("Enter password :")
+                        if password_five_new == student_five["student_password"]:
+                            if student_five['student_age'] >= 20:
+                                print(student_five['student_subject_marks'])
+                                print("Total marks :", total_five)
+                                print("Pass at 450")
+                                if total_five > 450:
+                                    print("Status : Pass")
+                                else:
+                                    print("Status : Fail")
+                            else:
+                                print('Under age 20years are not eligible')
+                        else:
+                            print("wrong password !!!")
                     else:
                         print("wrong password !!!")
+
+# DETAILS OF STUDENT SIX
 
                 elif help_loop==student6 or help_loop==student6_first:
                     password_six = input("Enter your password :")
@@ -126,8 +233,29 @@ if start =='start':
                                 print("Status : Fail")
                         else:
                             print('Under age 20years are not eligible')
+                    elif password_six != student_six["student_password"]:
+                        print("wrong password !!!")
+                        password_six_loop = input("Enter new password :")
+                        student_six["student_password"] = password_six_loop
+                        print("Your new password is :", password_six_loop)
+                        password_six_new = input("Enter password :")
+                        if password_six_new == student_six["student_password"]:
+                            if student_six['student_age'] >= 20:
+                                print(student_six['student_subject_marks'])
+                                print("Total marks :", total_six)
+                                print("Pass at 450")
+                                if total_six > 450:
+                                    print("Status : Pass")
+                                else:
+                                    print("Status : Fail")
+                            else:
+                                print('Under age 20years are not eligible')
+                        else:
+                            print("wrong password !!!")
                     else:
                         print("wrong password !!!")
+
+# DETAILS OF STUDENT SEVEN
 
                 elif help_loop==student7 or help_loop==student7_first:
                     password_seven = input("Enter your password :")
@@ -142,8 +270,29 @@ if start =='start':
                                 print("Status : Fail")
                         else:
                             print('Under age 20years are not eligible')
+                    elif password_seven != student_seven["student_password"]:
+                        print("wrong password !!!")
+                        password_seven_loop = input("Enter new password :")
+                        student_seven["student_password"] = password_seven_loop
+                        print("Your new password is :", password_seven_loop)
+                        password_seven_new = input("Enter password :")
+                        if password_seven_new == student_seven["student_password"]:
+                            if student_seven['student_age'] >= 20:
+                                print(student_seven['student_subject_marks'])
+                                print("Total marks :", total_seven)
+                                print("Pass at 450")
+                                if total_seven > 450:
+                                    print("Status : Pass")
+                                else:
+                                    print("Status : Fail")
+                            else:
+                                print('Under age 20years are not eligible')
+                        else:
+                            print("wrong password !!!")
                     else:
                         print("wrong password !!!")
+
+# DETAILS OF STUDENT EIGHT
 
                 elif help_loop==student8 or help_loop==student8_first:
                     password_eight = input("Enter your password :")
@@ -158,8 +307,29 @@ if start =='start':
                                 print("Status : Fail")
                         else:
                             print('Under age 20years are not eligible')
+                    elif password_eight != student_eight["student_password"]:
+                        print("wrong password !!!")
+                        password_eight_loop = input("Enter new password :")
+                        student_eight["student_password"] = password_eight_loop
+                        print("Your new password is :", password_eight_loop)
+                        password_eight_new = input("Enter password :")
+                        if password_eight_new == student_eight["student_password"]:
+                            if student_eight['student_age'] >= 20:
+                                print(student_eight['student_subject_marks'])
+                                print("Total marks :", total_eight)
+                                print("Pass at 450")
+                                if total_eight > 450:
+                                    print("Status : Pass")
+                                else:
+                                    print("Status : Fail")
+                            else:
+                                print('Under age 20years are not eligible')
+                        else:
+                            print("wrong password !!!")
                     else:
                         print("wrong password !!!")
+
+# DETAILS OF STUDENT NINE
 
                 elif help_loop==student9 or help_loop==student9_first:
                     password_nine = input("Enter your password :")
@@ -174,8 +344,29 @@ if start =='start':
                                 print("Status : Fail")
                         else:
                             print('Under age 20years are not eligible')
+                    elif password_nine != student_nine["student_password"]:
+                        print("wrong password !!!")
+                        password_nine_loop = input("Enter new password :")
+                        student_nine["student_password"] = password_nine_loop
+                        print("Your new password is :", password_nine_loop)
+                        password_nine_new = input("Enter password :")
+                        if password_nine_new == student_nine["student_password"]:
+                            if student_nine['student_age'] >= 20:
+                                print(student_nine['student_subject_marks'])
+                                print("Total marks :", total_nine)
+                                print("Pass at 450")
+                                if total_nine > 450:
+                                    print("Status : Pass")
+                                else:
+                                    print("Status : Fail")
+                            else:
+                                print('Under age 20years are not eligible')
+                        else:
+                            print("wrong password !!!")
                     else:
                         print("wrong password !!!")
+
+# DETAILS OF STUDENT TEN
 
                 elif help_loop==student10 or help_loop==student10_first:
                     password_ten = input("Enter your password :")
@@ -190,8 +381,29 @@ if start =='start':
                                 print("Status : Fail")
                         else:
                             print('Under age 20years are not eligible')
+                    elif password_ten != student_ten["student_password"]:
+                        print("wrong password !!!")
+                        password_ten_loop = input("Enter new password :")
+                        student_ten["student_password"] = password_ten_loop
+                        print("Your new password is :", password_ten_loop)
+                        password_ten_new = input("Enter password :")
+                        if password_ten_new == student_ten["student_password"]:
+                            if student_ten['student_age'] >= 20:
+                                print(student_ten['student_subject_marks'])
+                                print("Total marks :", total_ten)
+                                print("Pass at 450")
+                                if total_ten > 450:
+                                    print("Status : Pass")
+                                else:
+                                    print("Status : Fail")
+                            else:
+                                print('Under age 20years are not eligible')
+                        else:
+                            print("wrong password !!!")
                     else:
-                        print("erong password !!!")
+                        print("wrong password !!!")
+
+# DETAILS OF STUDENT ELEVEN
 
                 elif help_loop==student11 or help_loop==student11_first:
                     password_eleven = input("Enter your password :")
@@ -206,8 +418,29 @@ if start =='start':
                                 print("Status : Fail")
                         else:
                             print('Under age 20years are not eligible')
+                    elif password_eleven != student_eleven["student_password"]:
+                        print("wrong password !!!")
+                        password_eleven_loop = input("Enter new password :")
+                        student_eleven["student_password"] = password_eleven_loop
+                        print("Your new password is :", password_eleven_loop)
+                        password_eleven_new = input("Enter password :")
+                        if password_eleven_new == student_eleven["student_password"]:
+                            if student_eleven['student_age'] >= 20:
+                                print(student_eleven['student_subject_marks'])
+                                print("Total marks :", total_eleven)
+                                print("Pass at 450")
+                                if total_eleven > 450:
+                                    print("Status : Pass")
+                                else:
+                                    print("Status : Fail")
+                            else:
+                                print('Under age 20years are not eligible')
+                        else:
+                            print("wrong password !!!")
                     else:
                         print("wrong password !!!")
+
+# DETAILS OF STUDENT TWELVE
 
                 elif help_loop==student12 or help_loop==student12_first:
                     password_twelve = input("Enter your password :")
@@ -222,6 +455,25 @@ if start =='start':
                                 print("Status : Fail")
                         else:
                             print('Under age 20years are not eligible')
+                    elif password_twelve != student_twelve["student_password"]:
+                        print("wrong password !!!")
+                        password_twelve_loop = input("Enter new password :")
+                        student_twelve["student_password"] = password_twelve_loop
+                        print("Your new password is :", password_twelve_loop)
+                        password_twelve_new = input("Enter password :")
+                        if password_twelve_new == student_twelve["student_password"]:
+                            if student_twelve['student_age'] >= 20:
+                                print(student_twelve['student_subject_marks'])
+                                print("Total marks :", total_twelve)
+                                print("Pass at 450")
+                                if total_twelve > 450:
+                                    print("Status : Pass")
+                                else:
+                                    print("Status : Fail")
+                            else:
+                                print('Under age 20years are not eligible')
+                        else:
+                            print("wrong password !!!")
                     else:
                         print("wrong password !!!")
 
